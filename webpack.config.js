@@ -57,7 +57,7 @@ module.exports = {
   ],
   optimization: {
     minimize: true.valueOf,
-    minimier: [
+    minimizer: [
       new CssMinimizerPluging(),
       new TerserPlugin(),
     ]
